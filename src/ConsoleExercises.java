@@ -19,7 +19,7 @@ public class ConsoleExercises {
 //        System.out.println("You entered: " + );
 
 //        Instructor  3************
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
 //        System.out.println("Enter an integer: ");
 //        int userInput = scanner.nextInt();
 //        System.out.println(userInput);
@@ -50,13 +50,31 @@ public class ConsoleExercises {
 
 
 //        Instructor ************
-        System.out.println("Please enter the length of your classroom:");
-        int length = Integer.parseInt(scanner.nextLine());
-        System.out.println("Please enter the width of your classroom:");
-        int width = Integer.parseInt(scanner.nextLine());
-        System.out.println("The area of your room is " + (width * length) + " and the parimeter is " + (2 * (widthInFeet )));
+//        System.out.println("Please enter the length of your classroom:");
+//        int length = Integer.parseInt(scanner.nextLine());
+//        System.out.println("Please enter the width of your classroom:");
+//        int width = Integer.parseInt(scanner.nextLine());
+//        System.out.println("The area of your room is " + (width * length) + " and the parimeter is " + (2 * (widthInFeet )));
 
 
 
     }
 }
+
+
+//    String customerChoice = "vanilla";
+//
+//        switch (customerChoice) {
+//                case "vanilla":
+//                System.out.println("One vanilla coming right up");
+//                break;
+//                case "chocolate":
+//                System.out.println("chocolate coming right up");
+//                break;
+//                case "strawberry":
+//                System.out.println("strawberry coming right up");
+//                break;
+//default:
+//        System.out.println("We don't have that");
+//        break;
+//        }
