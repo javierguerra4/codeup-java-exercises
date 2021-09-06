@@ -7,6 +7,9 @@ public class Test {
 
         String myString = "Go Cowboys!";
         System.out.println(myString);
+
+        long myNumber = 123;
+        System.out.println(myNumber);
 //        System.out.print("Hello, Dracoooooooo!");
 
 //        Scanner scanner = new Scanner(System.in);
