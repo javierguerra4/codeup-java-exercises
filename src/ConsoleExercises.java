@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class ConsoleExercises {
     public static void main(String[] args) {
+
+
 //        Exercise #1
 //        double pi = 3.14159;
 //        System.out.printf("Formatted with precision: pi = %.2f\n", Math.PI);
