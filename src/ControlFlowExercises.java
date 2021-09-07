@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class ControlFlowExercises {
     public static void main(String[] args) {
 //        int i = 5;
@@ -45,16 +46,22 @@ public class ControlFlowExercises {
 //            i++;
 //            if ( i / 3 == 0){
 //            System.out.println("Fizz");
-        for (int i = 1; i <= 100; i++){
-            if (((i % 3) == 0) && ((i % 5) == 0 ))
-                System.out.println("FizzBuzz");
-                else if ((i % 3) == 0)
-                    System.out.println("Fizz");
-                else if ((i % 5) == 0)
-                    System.out.println("Buzz");
-                else
-                    System.out.println(i);
-        }
+//        *******   CORRECT SOLUTION************
+//        for (int i = 1; i <= 100; i++){
+//            if ((i % 3 == 0) && (i % 5 == 0 ))
+//                System.out.println("FizzBuzz");
+//                else if (i % 3 == 0)
+//                    System.out.println("Fizz");
+//                else if (i % 5 == 0)
+//                    System.out.println("Buzz");
+//                else
+//                    System.out.println(i);
+//        }
+
+        Scanner num = new Scanner(System.in);
+        System.out.print("What number would you like to go up to? ");
+        int userInput = num.nextInt();
+        System.out.println(userInput);
 
 
     }
