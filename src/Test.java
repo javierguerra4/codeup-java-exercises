@@ -28,11 +28,22 @@ public class Test {
 //        y *= x;
 //        System.out.println(y);
 
-        int x = 10;
-        int y = 2;
-        x = x / y;
-        y = y - x;
+//        int x = 10;
+//        int y = 2;
+//        x = x / y;
+//        y = y - x;
 
+//*************** Mini exercise 09/07/21****************
+        // write a Java program that asks the user for their age and then tells them if they are a teenager or not.
+        // bonus: if not, tell them whether they are younger or older than a teenager.
+
+//        int age = 18;
+//        boolean teenager = true;
+//        if (age <= 18 && )
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("What is your age? ");
+//       if( int nextInt() = scanner.next();)
+//        System.out.println("You entered: " + );
 
 //        System.out.print("Hello, Dracoooooooo!");
 
