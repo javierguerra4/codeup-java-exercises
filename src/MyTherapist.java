@@ -4,10 +4,10 @@ public class MyTherapist {
     public static void main(String[] args) {
         Scanner answer = new Scanner(System.in);
         System.out.print("How are you feeling today? Good or bad?");
-        String userInput = answer.next();
-        if (userInput == "good");{
+        String userInput = answer.nextLine();
+        if (userInput.equals ("good");{
             System.out.println("I'm glad you're feeling well! This session is over.");
-        } else if ( userInput == "bad");{
+        } else if ( userInput.equals ("bad");{
             System.out.println("Let's talk about your feelings and stuff.");
 
         } else {
