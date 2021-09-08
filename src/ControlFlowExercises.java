@@ -36,6 +36,11 @@ public class ControlFlowExercises {
 //        } while (i < 1000000);
 //        System.out.println("This is the last number in the loop," + " " + i);
 
+//        long i = 2L;
+//        do {
+//            System.out.println(i);
+//            i *= i;
+//        } while (i<= 1000000);
 //     *************FizzBuzz***************
 //        int i = 0;
 //        while (i <= 100) {
@@ -60,8 +65,16 @@ public class ControlFlowExercises {
 
         Scanner num = new Scanner(System.in);
         System.out.print("What number would you like to go up to? ");
-        int userInput = num.nextInt();
-        System.out.println(userInput);
+        int i = num.nextInt();
+//        System.out.println(i);
+        System.out.println("Here is your table!");
+        System.out.println("number | squared | cubed");
+        System.out.println("------ | ------ | ------");
+
+
+
+
+
 
 
     }
