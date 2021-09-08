@@ -65,11 +65,14 @@ public class ControlFlowExercises {
 
         Scanner num = new Scanner(System.in);
         System.out.print("What number would you like to go up to? ");
-        int i = num.nextInt();
+        int userInput = num.nextInt();
 //        System.out.println(i);
         System.out.println("Here is your table!");
         System.out.println("number | squared | cubed");
         System.out.println("------ | ------ | ------");
+        for (int i = 1; i <= userInput; i++) {
+            System.out.printf("%-7d | %-8d| %-5d%n", i, i*i, i*i*i);
+        }
 
 
 
