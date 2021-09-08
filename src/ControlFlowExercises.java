@@ -73,22 +73,22 @@ public class ControlFlowExercises {
 //            System.out.printf("%-7d | %-8d| %-5d%n", i, i*i, i*i*i);
 //        }
 
-        Scanner num = new Scanner(System.in);
-        System.out.print("What was your number grade?");
-        int userInput = num.nextInt();
-            if (userInput <= 100 && userInput >= 88) {
-                System.out.println("You received an A!");
-            } else if ( userInput <= 87 && userInput >= 80) {
-                System.out.println("You received an B!");
-            } else if ( userInput <= 79 && userInput >= 67) {
-                System.out.println("You received an C!");
-            } else if ( userInput <= 66 && userInput >= 60) {
-                System.out.println("You received an D :(");
-            } else if ( userInput <= 59 && userInput >= 0) {
-                System.out.println("You received an F :(");
-            }  else {
-                System.out.println("That's not a valid grade. Try again :)");
-            }
+//        Scanner num = new Scanner(System.in);
+//        System.out.print("What was your number grade?");
+//        int userInput = num.nextInt();
+//            if (userInput <= 100 && userInput >= 88) {
+//                System.out.println("You received an A!");
+//            } else if ( userInput <= 87 && userInput >= 80) {
+//                System.out.println("You received an B!");
+//            } else if ( userInput <= 79 && userInput >= 67) {
+//                System.out.println("You received an C!");
+//            } else if ( userInput <= 66 && userInput >= 60) {
+//                System.out.println("You received an D :(");
+//            } else if ( userInput <= 59 && userInput >= 0) {
+//                System.out.println("You received an F :(");
+//            }  else {
+//                System.out.println("That's not a valid grade. Try again :)");
+//            }
 
 
 
