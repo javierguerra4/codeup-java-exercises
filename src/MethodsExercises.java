@@ -33,11 +33,26 @@ public class MethodsExercises {
 //    }
 
 
-    //    ************Exercise 2************
+    //    ************Exercise 2************COME BACK TO UNDERSTAND THIS CODE
+//    public static void main(String[] args) {
+//        int userInput = getInteger(1, 10);
+//        System.out.printf("You entered %d \n", userInput);
+//    }
+//    public static int getInteger(int min, int max) {
+//        int input;
+//        Scanner in = new Scanner(System.in);
+//        do {
+//            System.out.print("Enter a value between " + min + " and " + max + ": ");
+//            input = in.nextInt();
+//        } while (input < min || input > max);
+//        return input;
+//    }
+
+//   *********** Exercise 3***********
     public static void main(String[] args) {
         int userInput = getInteger(1, 10);
         System.out.printf("You entered %d \n", userInput);
-    }
+}
     public static int getInteger(int min, int max) {
         int input;
         Scanner in = new Scanner(System.in);
@@ -47,4 +62,5 @@ public class MethodsExercises {
         } while (input < min || input > max);
         return input;
     }
+
 }
