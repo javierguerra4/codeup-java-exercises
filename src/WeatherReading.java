@@ -1,22 +1,23 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-
-public class WeatherReading {
-    private double latitude;
-    private double longitude;
-    private Date (from java.util.Date) recordedAt;
-        private double tempInCelsius;
-
-
-        public static void kelToCel(){double celsius, fahrenhiet, kelvin;
-            BufferedReader br = new BufferedReader( new InputStreamReader(System.in) );
-            System.out.println ("Enter temperature in Kelvin");
-            kelvin = Double.parseDouble ( br.readLine() );
-            celsius = kelvin - 273.0;
-            System.out.println ("\n" + kelvin + "K = "+ celsius + "C");
-            fahrenhiet = (celsius * 9.0/5.0) + 32.0;
-            System.out.println ("\n" + kelvin + "K = " + fahrenhiet +"F");}
-}
+//import java.io.BufferedReader;
+//import java.io.InputStreamReader;
+//import java.util.Date;
+//
+//public class WeatherReading {
+//    private double latitude;
+//    private double longitude;
+//    private Date recordedAt;
+//        private double tempInCelsius;
+//
+//
+//        public static void kelToCel(){double celsius, fahrenhiet, kelvin;
+//            BufferedReader br = new BufferedReader( new InputStreamReader(System.in) );
+//            System.out.println ("Enter temperature in Kelvin");
+//            kelvin = Double.parseDouble ( br.readLine() );
+//            celsius = kelvin - 273.0;
+//            System.out.println ("\n" + kelvin + "K = "+ celsius + "C");
+//            fahrenhiet = (celsius * 9.0/5.0) + 32.0;
+//            System.out.println ("\n" + kelvin + "K = " + fahrenhiet +"F");}
+//}
 
 
 //================================= WARM UP
