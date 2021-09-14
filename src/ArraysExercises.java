@@ -1,12 +1,12 @@
-import java.util.Arrays;
-
-public class ArraysExercises {
-    public static void main(String[] args) {
-        ArraysExercises persons[ ] = new ;
-
-
-    }
-}
+//import java.util.Arrays;
+//
+//public class ArraysExercises {
+//    public static void main(String[] args) {
+//        ArraysExercises persons[ ] = new ;
+//
+//
+//    }
+//}
 
 
 
