@@ -15,6 +15,12 @@ public class Vehicle {
     public void makeNoise(){
         System.out.println("Vroom vroom");
     }
+public
+    public Vehicle(String name){
+        this.name = name;
+        System.out.println("A new vehicle has been created.");
+
+    }
 }
 
 

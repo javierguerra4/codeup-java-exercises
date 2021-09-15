@@ -1,16 +1,18 @@
 package shapes;
 
-public class circle {
+public class Circle {
+
     private double radius;
 
     public double getArea(){
-        return Math.PI * (Math.pow(radius, 2));
+        return Math.PI * (Math.pow(radius,2));
     }
 
-    public double GetCircumference(){
+    public double getCircumference(){
         return 2 * Math.PI * radius;
     }
-    public circle(double radius){
+
+    public Circle(double radius){
         this.radius = radius;
     }
 }

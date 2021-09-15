@@ -20,5 +20,9 @@ public class Bird {
         System.out.println("Flap flap");
     }
 
+//    public Bird(String name){
+//        this.name = name;
+//    }
+
 }
 
