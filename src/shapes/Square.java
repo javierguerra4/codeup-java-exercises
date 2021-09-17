@@ -5,8 +5,11 @@ public class Square extends Rectangle {
 
 
 
-
 }
+
+
+
+
 
 
 
@@ -26,4 +29,23 @@ public class Square extends Rectangle {
 //
 //    public double perimeter(){
 //        return 4 * side;
+//    }
+
+
+
+
+
+//
+//FROM JUSTIN*******
+//    public Square (double side){
+//        super(side, side);
+//
+//    }
+//
+//    public double getArea(){
+//        return length * length;
+//
+//        public double getPerimeter(){
+//            return 4 * length;
+//        }
 //    }
