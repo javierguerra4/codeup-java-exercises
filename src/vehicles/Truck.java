@@ -1,4 +1,4 @@
-package vehicles;
+/*package vehicles;
 
 public class Truck extends Vehicle{
 
@@ -9,4 +9,4 @@ public class Truck extends Vehicle{
         super(name);
 
     }
-}
+}*/

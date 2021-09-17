@@ -1,27 +1,27 @@
-package vehicles;
-
-public class Vehicle {
-    private String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-
-    public void makeNoise(){
-        System.out.println("Vroom vroom");
-    }
-public
-    public Vehicle(String name){
-        this.name = name;
-        System.out.println("A new vehicle has been created.");
-
-    }
-}
+//package vehicles;
+//
+//public class Vehicle {
+//    private String name;
+//
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//
+//    public void makeNoise(){
+//        System.out.println("Vroom vroom");
+//    }
+//public
+//    public Vehicle(String name){
+//        this.name = name;
+//        System.out.println("A new vehicle has been created.");
+//
+//    }
+//}
 
 
 
