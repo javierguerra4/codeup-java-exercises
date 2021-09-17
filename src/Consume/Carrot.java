@@ -3,7 +3,7 @@ package Consume;
 public class Carrot implements Consumable{
     private boolean isPeeled;
 
-//    Constructor
+//    Constructor**********
     public Carrot(boolean isPeeled){
         this.isPeeled = isPeeled;
     }

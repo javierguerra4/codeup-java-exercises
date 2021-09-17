@@ -6,6 +6,7 @@ public class Main {
         Carrot carrot = new Carrot(true);
 
         System.out.println(carrot.isPeeled());
+//        This had to be called as a function because
         carrot.checkIfExpired();
 
     }
