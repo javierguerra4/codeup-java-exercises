@@ -1,7 +1,7 @@
-package music;
-
-public interface VolumeAdjustable {
-
-    public void volumeUp();
-    public void volumeDown();
-}
+//package music;
+//
+//public interface VolumeAdjustable {
+//
+//    public void volumeUp();
+//    public void volumeDown();
+//}

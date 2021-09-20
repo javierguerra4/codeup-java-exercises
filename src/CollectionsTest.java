@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class CollectionsTest {
+//public class CollectionsTest {
 //    public static void main(String[] args) {
 //        /*
 //    Create a class called CollectionsTest and include the following...
@@ -24,30 +24,30 @@ public class CollectionsTest {
 //
 //    }
 
-
-    public static void main(String[] args) {
-
-        ArrayList<String> username = new ArrayList();
-
-        username.add("User1");
-        username.add("User2");
-        username.add("User3");
-        username.add("User4");
-
-
-        ArrayList<String> password = new ArrayList();
-
-    }
-
-
-
-
-
-
-
-
-
-}
+//
+//    public static void main(String[] args) {
+//
+//        ArrayList<String> username = new ArrayList();
+//
+//        username.add("User1");
+//        username.add("User2");
+//        username.add("User3");
+//        username.add("User4");
+//
+//
+//        ArrayList<String> password = new ArrayList();
+//
+//    }
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//}
 
 
 /*

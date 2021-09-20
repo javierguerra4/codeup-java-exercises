@@ -1,7 +1,7 @@
-package music;
-
-public interface Tuneable {
-
-    public void tuneInstruments();
-    public void detuneInstruments();
-}
+//package music;
+//
+//public interface Tuneable {
+//
+//    public void tuneInstruments();
+//    public void detuneInstruments();
+//}
