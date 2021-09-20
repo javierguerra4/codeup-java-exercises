@@ -1,4 +1,4 @@
-package music;
-
-public class MusicalInstrument implements Playable{
-}
+//package music;
+//
+//public class MusicalInstrument implements Playable{
+//}
