@@ -1,34 +1,34 @@
-package shapes;
-
-public class Rectangle extends Quadrilateral {
-
-//    Will not compile unless the methods are implemented
-    public Rectangle(double length, double width){
-        super(length, width);
-    }
-
-
-
-    @Override
-    public double getPerimeter() {
-        return (length * 2) + (width * 2);
-    }
-
-    @Override
-    public double getArea() {
-        return width * length;
-    }
-
-    @Override
-    public void setLength(double length) {
-        this.length = length;
-    }
-
-    @Override
-    public void setWidth(double width) {
-        this.width = width;
-    }
-}
+//package shapes;
+//
+//public class Rectangle extends Quadrilateral {
+//
+////    Will not compile unless the methods are implemented
+//    public Rectangle(double length, double width){
+//        super(length, width);
+//    }
+//
+//
+//
+//    @Override
+//    public double getPerimeter() {
+//        return (length * 2) + (width * 2);
+//    }
+//
+//    @Override
+//    public double getArea() {
+//        return width * length;
+//    }
+//
+//    @Override
+//    public void setLength(double length) {
+//        this.length = length;
+//    }
+//
+//    @Override
+//    public void setWidth(double width) {
+//        this.width = width;
+//    }
+//}
 
 
 
