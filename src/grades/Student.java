@@ -23,8 +23,8 @@ public class Student {
         this.name = name;
     }
 
-    public void addGrade(int grade){
-        grade.add(grade);
+    public void addGrade(int studentGrade){
+        grades.add(studentGrade);
 
 
     }
