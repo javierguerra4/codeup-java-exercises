@@ -3,9 +3,18 @@ package grades;
 import java.util.ArrayList;
 
 public class Student {
-    private String name;
-    private ArrayList<Integer> grade;
 
+//    Properties
+    private String name;
+    private ArrayList<Integer> grades;
+
+//    Constructor for class
+    public Student(String name) {
+        this.name = name;
+        this.grades = new ArrayList<>();
+    }
+
+    //    Getters and setters
     public String getName() {
         return name;
     }
@@ -14,11 +23,15 @@ public class Student {
         this.name = name;
     }
 
-    public ArrayList<Integer> getGrade() {
-        return grade;
+    public void addGrade(int grade){
+        grade.add(grade);
+
+
     }
 
-    public void setGrade(ArrayList<Integer> grade) {
-        this.grade = grade;
-    }
+
+
+
+
+
 }
