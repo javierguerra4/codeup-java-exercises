@@ -58,6 +58,8 @@ public class Student {
         student1.addGrade(80);
         student1.addGrade(85);
         System.out.println(student1.grades);
+        System.out.println(student1.getGradeAverage());
+
     }
 
 
