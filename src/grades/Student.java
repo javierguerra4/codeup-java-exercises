@@ -57,8 +57,16 @@ public class Student {
         student1.addGrade(90);
         student1.addGrade(80);
         student1.addGrade(85);
-        System.out.println(student1.grades);
-        System.out.println(student1.getGradeAverage());
+//        System.out.println(student1.grades);
+        System.out.println("Dakota's average grade is " + student1.getGradeAverage());
+
+
+        Student student2 = new Student("Tony");
+        student2.addGrade(95);
+        student2.addGrade(75);
+        student2.addGrade(88);
+//        System.out.println(student2.grades);
+        System.out.println("Tony's average grade is " + student2.getGradeAverage());
 
     }
 

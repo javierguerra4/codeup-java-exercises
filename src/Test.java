@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Test {
@@ -62,6 +64,26 @@ public class Test {
 //        int userInput = scanner.nextInt();
 //        System.out.printf("You entered %d%n", userInput);
 //
+
+//        *******Mini exercise 09/21/21
+
+
+//        public void subListMaker(String sentence){
+//            Scanner scanner = new Scanner(System.in);
+//            System.out.println("Please enter an integer");
+//            int firstInt = scanner.nextInt();
+//            System.out.println("Please enter another integer");
+//            int secondInt = scanner.nextInt();
+//            System.out.println(sentence);
+//            ArrayList<String> wordArrayList = new ArrayList<String>();
+//            String[] stringArray = sentence.split(" ");
+//            for (String word : stringArray){
+//                wordArrayList.add(word);
+//            }
+//            List<String> shorterList =  wordArrayList.subList(firstInt, secondInt);
+//            String newSentence = String.join(" ", shorterList);
+//            System.out.println(newSentence);
+//        }
 
     }
 }
