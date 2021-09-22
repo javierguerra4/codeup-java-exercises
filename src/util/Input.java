@@ -21,6 +21,7 @@ public class Input {
         return answer.equalsIgnoreCase("y") || answer.equalsIgnoreCase("yes");
     }
 
+//    ********
     public int getInt(){
         System.out.println("Enter an integer:");
         int userInput = scanner.nextInt();
@@ -42,6 +43,7 @@ public class Input {
         return userInput;
     }
 
+//    ********
     public double getDouble(){
         System.out.println("Enter a number:");
         double userInput = scanner.nextDouble();
