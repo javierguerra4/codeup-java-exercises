@@ -46,9 +46,14 @@ public class GradesApplication {
         Map<String, Student> studentMap = createStudents();
 
         List<String> usernames = new ArrayList<String>(studentMap.keySet());
-        System.out.println(usernames);
 
+        System.out.println("Here are the GitHub usernames of our students:");
 
+        String outputOfUsernames = "";
+        for (String username : usernames){
+            outputOfUsernames += String.format("|%s| ", username);
+        }
+        System.out.println(outputOfUsernames);
         }
     }
 
