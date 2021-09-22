@@ -6,7 +6,7 @@ public class GradesApplication {
 
     public static void main(String[] args) {
 
-        HashMap<String, String> studentMap = new HashMap<String, String>();
+        HashMap<String, Student> studentMap = new HashMap<>();
 
         Student student1 = new Student("Shrek");
         student1.addGrade(91);
@@ -31,5 +31,10 @@ public class GradesApplication {
         student4.addGrade(84);
         student4.addGrade(93);
         student4.addGrade(88);
+
+        studentMap.put("shrek23", student1);
+        studentMap.put("donkey3", student2);
+        studentMap.put("gingerMan2", student3);
+        studentMap.put("princessFiona12", student4);
     }
 }
