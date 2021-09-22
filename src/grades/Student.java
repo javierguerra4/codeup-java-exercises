@@ -16,7 +16,7 @@ public class Student {
 
     //    Getters and setters
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -50,6 +50,17 @@ public class Student {
         }
         return totalGrades / length;
     }
+
+
+//    Instructor solution
+//    public double getGradeAverage(){
+//        double total = 0;
+//        for (Integer grade : grades){
+//            total += grade;
+//            return total / grades.size();
+//
+//        }
+//    }
 
 
     public static void main(String[] args) {
