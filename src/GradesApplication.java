@@ -1,19 +1,20 @@
 import grades.Student;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class GradesApplication {
 
-    public static void main(String[] args) {
-
-        HashMap<String, Student> studentMap = new HashMap<>();
+    public static Map<String, Student> createStudents(){
+        Map<String, Student> studentMap = new HashMap<>();
 
         Student student1 = new Student("Shrek");
         student1.addGrade(91);
         student1.addGrade(80);
         student1.addGrade(85);
 
-        studentMap.put(student1, "Shrek");
 
 
         Student student2 = new Student("Donkey");
@@ -36,5 +37,18 @@ public class GradesApplication {
         studentMap.put("donkey3", student2);
         studentMap.put("gingerMan2", student3);
         studentMap.put("princessFiona12", student4);
+        return studentMap;
     }
-}
+
+    public static void main(String[] args) {
+        System.out.println("Welcome!\n");
+//Why did we create this?
+        Map<String, Student> studentMap = createStudents();
+
+        List<String> usernames = new ArrayList<String>(studentMap.keySet());
+        System.out.println(usernames);
+
+
+        }
+    }
+
