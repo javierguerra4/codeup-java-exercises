@@ -1,8 +1,10 @@
-public class MovieWarmUp {
+public class MovieWarmUp implements Entertains{
 
     private String name;
     private String director;
 
+
+//    The Getters And Setters for the instance variables.
     public String getName() {
         return name;
     }
@@ -19,12 +21,17 @@ public class MovieWarmUp {
         this.director = director;
     }
 
-    public MovieWarmUp(String name, String director) {
+//    This is the constructor.
+    public MovieWarmUp(String name, String director)throws IllegalArgumentException {
+        if (name == null || name.isBlank() || director == null || director.isBlank()){
+        throw new IllegalArgumentException(); }
         this.name = name;
         this.director = director;
     }
-
-
+//
+//public String audienceReaction(){
+//        return "oooooooooh" + name + "was so awesome";
+//}
 
 }
 
